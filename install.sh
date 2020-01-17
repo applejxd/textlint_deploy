@@ -7,5 +7,6 @@ npm install --save-dev \
     textlint-plugin-latex2e \
     textlint-rule-preset-ja-technical-writing \
     textlint-rule-preset-jtf-style \
-    textlint-rule-spellcheck-tech-word \
-    textlint-rule-preset-ja-spacing
+    textlint-rule-prh \
+    textlint-rule-preset-ja-spacing \
+    textlint-rule-spellcheck-tech-word

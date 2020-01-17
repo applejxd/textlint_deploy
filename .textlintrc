@@ -1,5 +1,6 @@
 {
-  "plugins": ["latex2"],
+  // cf. http://bit.ly/38dnngU
+  //"plugins": ["latex2e"],
   "rules": {
     // 技術文書向けのtextlintルールプリセット
     "preset-ja-technical-writing": {
@@ -15,7 +16,14 @@
     },
     // JTF日本語標準スタイルガイド
     "preset-jtf-style": true,
-    "spellcheck-tech-word": true,
-    "preset-ja-spacing": true
+    // textlint rule for prh
+    "prh": {
+      "rulePaths": [
+        "node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"
+      ]
+    },
+    // スペース周りのスタイルを扱うtextlintルール集
+    "preset-ja-spacing": true,
+    "spellcheck-tech-word": true
   }
 }
