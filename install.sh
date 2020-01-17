@@ -1,6 +1,7 @@
 #!/bin/sh
 
-git clone applejxd/textlint_deploy
+git clone https://github.com/applejxd/textlint_deploy.git
+cd textlint_deploy
 npm init -y
 npm install --save-dev \
     textlint \
