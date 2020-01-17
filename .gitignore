@@ -1,0 +1,9 @@
+## .gitignore ##
+# ignore all
+*
+*/
+
+# allow any
+!.gitignore
+!.textlintrc
+!install.sh
