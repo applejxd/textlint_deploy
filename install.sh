@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl https://raw.githubusercontent.com/applejxd/textlint_deploy/master/.textlintrc
+curl -O https://raw.githubusercontent.com/applejxd/textlint_deploy/master/.textlintrc
 npm init -y
 npm install --save-dev \
     textlint \
